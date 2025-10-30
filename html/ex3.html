@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhyuk's Example 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1><a href="../index.html">Link to Start Page</a></h1>
+    
+    <h2>Visited Countries</h2>
+    
+    <form id="countriesForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br><br>
+        
+        <fieldset>
+            <legend>Countries Visited:</legend>
+            
+            <label>
+                <input type="checkbox" name="country" value="France" data-year="2022">
+                France (2022)
+            </label><br>
+            
+            <label>
+                <input type="checkbox" name="country" value="Japan" data-year="2023">
+                Japan (2023)
+            </label><br>
+            
+            <label>
+                <input type="checkbox" name="country" value="Germany" data-year="2024">
+                Germany (2024)
+            </label><br>
+        </fieldset>
+        
+        <br>
+        <button type="submit">Send Data</button>
+    </form>
+    
+    <script src="../js/ex3.js"></script>
+</body>
+</html>
